@@ -1,0 +1,185 @@
+{
+  "source": "Synthetic Gaussian mixtures with exact variance-exploding score.",
+  "cases": [
+    {
+      "name": "development_r0.02_s0.8_seed940",
+      "split": "development",
+      "seed": 940,
+      "rare_weight": 0.02,
+      "separation": 0.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.02_s0.8_seed941",
+      "split": "development",
+      "seed": 941,
+      "rare_weight": 0.02,
+      "separation": 0.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.02_s0.8_seed942",
+      "split": "development",
+      "seed": 942,
+      "rare_weight": 0.02,
+      "separation": 0.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.02_s2.0_seed940",
+      "split": "development",
+      "seed": 940,
+      "rare_weight": 0.02,
+      "separation": 2.0,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.02_s2.0_seed941",
+      "split": "development",
+      "seed": 941,
+      "rare_weight": 0.02,
+      "separation": 2.0,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.02_s2.0_seed942",
+      "split": "development",
+      "seed": 942,
+      "rare_weight": 0.02,
+      "separation": 2.0,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.08_s0.8_seed940",
+      "split": "development",
+      "seed": 940,
+      "rare_weight": 0.08,
+      "separation": 0.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.08_s0.8_seed941",
+      "split": "development",
+      "seed": 941,
+      "rare_weight": 0.08,
+      "separation": 0.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.08_s0.8_seed942",
+      "split": "development",
+      "seed": 942,
+      "rare_weight": 0.08,
+      "separation": 0.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.08_s2.0_seed940",
+      "split": "development",
+      "seed": 940,
+      "rare_weight": 0.08,
+      "separation": 2.0,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.08_s2.0_seed941",
+      "split": "development",
+      "seed": 941,
+      "rare_weight": 0.08,
+      "separation": 2.0,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "development_r0.08_s2.0_seed942",
+      "split": "development",
+      "seed": 942,
+      "rare_weight": 0.08,
+      "separation": 2.0,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "final_r0.04_s1.4_seed940",
+      "split": "final",
+      "seed": 940,
+      "rare_weight": 0.04,
+      "separation": 1.4,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "final_r0.04_s1.4_seed941",
+      "split": "final",
+      "seed": 941,
+      "rare_weight": 0.04,
+      "separation": 1.4,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "final_r0.04_s1.4_seed942",
+      "split": "final",
+      "seed": 942,
+      "rare_weight": 0.04,
+      "separation": 1.4,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "final_r0.01_s2.8_seed940",
+      "split": "final",
+      "seed": 940,
+      "rare_weight": 0.01,
+      "separation": 2.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "final_r0.01_s2.8_seed941",
+      "split": "final",
+      "seed": 941,
+      "rare_weight": 0.01,
+      "separation": 2.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    },
+    {
+      "name": "final_r0.01_s2.8_seed942",
+      "split": "final",
+      "seed": 942,
+      "rare_weight": 0.01,
+      "separation": 2.8,
+      "n_train": 6000,
+      "n_reference": 50000,
+      "n_terminal": 5000
+    }
+  ]
+}
