@@ -1,0 +1,62 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath,amssymb,graphicx,array,tabularx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\fontsize{14}{16}\selectfont\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlength{\emergencystretch}{2em}
+\newcommand{\prompt}[1]{{\interlinepenalty=10000\textit{[#1]}\par}}
+\hypersetup{pdftitle={STAT 940 Final Project},pdfauthor={}}
+
+\begin{document}
+\pagestyle{empty}
+\input{cover-sheet}
+
+\clearpage
+\pagestyle{plain}
+\setcounter{page}{1}
+{\fontsize{16}{18}\selectfont\bfseries [Project title]}\par
+STAT 940 \quad | \quad Fall 2026 \quad | \quad [Group number]
+
+[Author names]
+
+\prompt{Template instructions: Replace all bracketed prompts with your own content and remove unused member rows. Retain the common headings; add subsections as useful. Maximum eight pages of main text, including figures and tables. Exclude the cover sheet, references, AI Use Statement and supplementary appendices. Keep the central reasoning and decisive evidence in the main report. Section lengths are flexible. Submit two separate files to two separate Learn dropboxes: Group\textless{}number\textgreater{}.pdf to the final-project report dropbox, and Group\textless{}number\textgreater{}.zip to the final-project code dropbox. Use the registered group number, with no spaces or leading zeros; for example, Group5.pdf and Group5.zip. Include the completed cover sheet once, as the first page of the PDF. The ZIP contains project code and a README with run commands. Word and LaTeX are authoring templates; submit the report as a PDF. Both files are due Monday, December 21, 2026, at 11:59 p.m. Toronto time.}
+
+\section*{Abstract}
+\prompt{Briefly summarize the question, approach and main finding. Replace this prompt with your abstract.}
+
+\section{Introduction}
+\prompt{State the project question and briefly describe your approach. For a listed project, you need not repeat its description or motivation.}
+
+\section{Related Work}
+\prompt{Discuss the closest relevant work. Explain what you adopted, what was already known, and how your approach or investigation differs.}
+
+\section{Method or Analysis}
+\prompt{Explain your approach and the reasoning behind it. Include definitions, assumptions, algorithms, mathematical arguments or other technical details as relevant. Clearly distinguish established results from your own work.}
+
+\section{Results}
+\prompt{Present and explain the evidence supporting your claims. Include experimental results, theoretical results, worked examples or a combination, as appropriate. For experiments, describe the data, settings, measures and comparisons. Include the benchmark comparisons and computational checks required by your chosen project.}
+
+\section{Discussion and Conclusion}
+\prompt{Explain what your findings establish and answer your project question. Discuss a meaningful limitation, failure case or condition under which your explanation does not apply. A carefully supported negative result is valid.}
+
+\section{AI Use Statement}
+\prompt{This section is mandatory and ungraded. Identify the AI tools used, the tasks and parts of the project they assisted with, and how you checked their outputs. If none were used, state: ``No generative AI tools were used in preparing this project.''}
+
+\begin{thebibliography}{99}
+% Replace these placeholders with the works cited in your report.
+\bibitem{reference1} [Author(s). Year. Title. Venue. DOI or URL.]
+\bibitem{reference2} [Author(s). Year. Title. Venue. DOI or URL.]
+\end{thebibliography}
+
+\appendix
+\section{Supplementary material}
+\prompt{Optional. Include longer proofs, additional results or implementation details here. Keep the central reasoning and decisive evidence in the main text. Remove this appendix if it is not needed.}
+
+\end{document}
